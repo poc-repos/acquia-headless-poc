@@ -1,0 +1,3 @@
+export const FETCH_DATA = "FETCH_DATA";
+export const FETCH_GUIDELINES_DATA = "FETCH_GUIDELINES_DATA";
+
