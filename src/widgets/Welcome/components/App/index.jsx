@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Header2, Header4, Link, Btn } from "__SHARED__";
-import classNames from "classNames";
+import classNames from "classnames";
 import Grid from "@material-ui/core/Grid";
 import styles from "./styles.css.js";
 
