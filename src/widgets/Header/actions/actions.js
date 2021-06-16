@@ -25,7 +25,7 @@ export const setValue =
 export const loginDetails = (userName, userPassword, history) => (dispatch) => {
   dispatch(showError(""));
   post({
-    url: "http://ireferpocbctdipjj6n.devcloud.acquia-sites.com/user/login?_format=json",
+    url: "https://ireferpocbctdipjj6n.devcloud.acquia-sites.com/user/login?_format=json",
     inputs: { name: userName, pass: userPassword },
   }).then((res) => {
     console.log(res);
